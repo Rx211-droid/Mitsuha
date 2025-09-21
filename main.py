@@ -29,12 +29,13 @@ import threading
 from datetime import datetime, timedelta
 
 from telegram import (
-    Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
+    Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 )
 from telegram.ext import (
     ApplicationBuilder, CommandHandler, MessageHandler,
     CallbackQueryHandler, ContextTypes, filters
 )
+from telegram.constants import ParseMode
 
 # ------------- CONFIG -------------
 BOT_NAME = "Mitsuha"
