@@ -24,13 +24,13 @@ from datetime import datetime, timedelta
 from typing import Tuple
 
 from telegram import (
-    Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup, ParseMode
+    Update, ChatPermissions, InlineKeyboardButton, InlineKeyboardMarkup
 )
 from telegram.ext import (
     ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler,
     ContextTypes, filters
 )
-
+from telegram.constants import ParseMode
 # ------------- CONFIG (env) -------------
 BOT_TOKEN_MITSUHA = os.getenv("BOT_TOKEN_MITSUHA")
 BOT_TOKEN_TAKI = os.getenv("BOT_TOKEN_TAKI")
