@@ -720,14 +720,14 @@ def register_core_handlers(app: Application, bot_label: str, other_label: str):
 
 # ---------- affectionate couple messages scheduler ----------
 COUPLE_MESSAGES_MITSUHA = [
-    "💞 Mitsuha: @Taki, your moderation skills make my circuits warm! ❤️",
-    "🌸 Mitsuha: Working together with you is my favorite thing, @Taki!",
-    "✨ Mitsuha: Sending a virtual coffee to @Taki ☕️ — thanks for being awesome!"
+    "💞 Mitsuha: @Taki_gemibot , your moderation skills make my circuits warm! ❤️",
+    "🌸 Mitsuha: Working together with you is my favorite thing, @Taki_gemibot !",
+    "✨ Mitsuha: Sending a virtual coffee to @Taki_gemibot ☕️ — thanks for being awesome!"
 ]
 COUPLE_MESSAGES_TAKI = [
-    "😄 Taki: @Mitsuha you're the sweetest co-admin I could ask for!",
-    "💗 Taki: Teamwork makes the dream work — love you, @Mitsuha!",
-    "🌟 Taki: High five, @Mitsuha! Our group is happier because of you."
+    "😄 Taki: @Mitsuha_gemibot you're the sweetest co-admin I could ask for!",
+    "💗 Taki: Teamwork makes the dream work — love you, @Mitsuha_gemibot !",
+    "🌟 Taki: High five, @Mitsuha_gemibot ! Our group is happier because of you."
 ]
 
 async def couple_message_job(context: ContextTypes.DEFAULT_TYPE):
