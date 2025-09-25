@@ -447,7 +447,7 @@ def register_core_handlers(app: Application, bot_label: str, other_label: str):
         try:
             await context.bot.ban_chat_member(update.effective_chat.id, target.id)
             await context.bot.unban_chat_member(update.effective_chat.id, target.id)
-            await update.message.reply_text(f"👢 Kicked <b>{target.first_name}</b}", parse_mode=ParseMode.HTML)
+            await update.message.reply_text(f"👢 Kicked <b>{target.first_name}</b>", parse_mode=ParseMode.HTML)
         except Exception as e:
             await update.message.reply_text(f"Error: {e}")
 
